@@ -1,5 +1,6 @@
 <div align="center">
 
+<!-- omit in toc -->
 # asdf-venom [![Build](https://github.com/aabouzaid/asdf-venom/actions/workflows/build.yml/badge.svg)](https://github.com/aabouzaid/asdf-venom/actions/workflows/build.yml) [![Lint](https://github.com/aabouzaid/asdf-venom/actions/workflows/lint.yml/badge.svg)](https://github.com/aabouzaid/asdf-venom/actions/workflows/lint.yml)
 
 
@@ -7,27 +8,28 @@
 
 </div>
 
+<!-- omit in toc -->
 # Contents
 
+- [Overview](#overview)
 - [Dependencies](#dependencies)
 - [Install](#install)
 - [Contributing](#contributing)
 - [License](#license)
 
+# Overview
+
+This is an [asdf](https://github.com/asdf-vm/asdf) plugin for [Venom](https://github.com/ovh/venom) (a declarative integration tests tool).
+
 # Dependencies
 
-**TODO: adapt this section**
-
-- `bash`, `curl`, `tar`: generic POSIX utilities.
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
+- `bash`, `curl`, `grep`, and generic POSIX utilities.
 
 # Install
 
 Plugin:
 
 ```shell
-asdf plugin add venom
-# or
 asdf plugin add venom https://github.com/aabouzaid/asdf-venom.git
 ```
 
@@ -44,7 +46,7 @@ asdf install venom latest
 asdf global venom latest
 
 # Now venom commands are available
-venom help
+venom version
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
